@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="stylesevn.css">
+</head>
+<body> 
+    <nav>
+        <div class="mobile">
+            <div class="header">
+                <div class="logo"></div>
+                <div class="more"><button id="bMore"><span class="material-icons">
+                    menu
+                    </span></button></div>
+            </div>     
+        </div>
+        <div class="desktop">
+            <div class="logo">
+                <a href="inicio.html"><img src="imgs/logo.png" alt=""></a>             
+            </div>
+            <div class="primary">
+
+                <a href="menu.html" class="menu">Menu</a>
+                <a href="eventos.html" class="eventos">Eventos</a>
+                <a href="reservaciones.html" class="reser">Reservaciones</a>
+            </div>
+        </div>
+    </nav>
+    <div id="titulo">
+        <img src="imgs/PE1.png" alt="" class="img1">
+        <img src="imgs/PE2.png" alt="" class="img2">
+    </div>
+    <div id="texto">
+            <h3 class="an">
+                ANIVERSARIOS <p></p> Ven a celebrar tu aniversario con nosotros y nos <p></p> ocuparemos de que tu dia sea inolvidable con una <p></p> gran experiencia en compañia de tu pareja, amigos <p></p> y/o familiares.
+            <h3 class="ng">
+                NEGOCIOS <p></p> ¿Cierras un tratyo, planeas un proyecto o <p></p> quieres hacer un evento corporativo? Cada <p></p> ocacsión requiere un espacio distinto. <p></p> Tenemos para ti una variedad de opciones <p></p>que fusionan una comida deliciosa con un <p></p> buen ambiente.
+            </h3>         
+    </div>
+    <script>
+        const bMore=document.querySelector('#bMore');
+        const links=document.querySelector('#links');
+
+        bMore.addEventListener('click', (e) => {
+            links.classList.toggle('collapsed')
+        })
+    </script>
+</body>
+</html>

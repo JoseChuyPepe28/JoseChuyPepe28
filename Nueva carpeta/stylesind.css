@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    height: 100%;
+    width: 75%;
+    position: absolute;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/imgs/PP1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.log{
+    height: 100vh;
+    width: 35%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 65%;
+    color: rgb(255, 255, 255);
+}
+.log h1{
+    margin: 0;
+    margin-top: 15px;
+    padding: 0 0 20;
+    text-align: center;
+    font-size: 30px;
+}
+.log label{
+    margin-top: 80px;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    margin-left: 12%;
+    font-size: 20px;
+}
+.log input{
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.log input[type="text"],.log input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.log input[type="submit"]{
+    margin-top: 80px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;    
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+.log input[type="submit"]:hover{
+    background-color: #9e1323;
+}
