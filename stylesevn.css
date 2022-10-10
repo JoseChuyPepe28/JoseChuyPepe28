@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+nav{
+    background-color: #EBAE53;
+    color: white;
+    width: 100%;
+}
+nav .mobile{
+  display: none;
+}
+
+nav .logo{
+    min-width: 50px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+}
+
+nav a:hover{
+    color: #EBAE53;
+    background-color: #b6915b;
+}
+nav .desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .desktop .primary, nav .desktop .secondary{
+    display: flex;
+}
+
+nav .desktop .secondary.Mini{
+    display: none;
+}
+#titulo{
+    margin-left: 365px;
+    margin-top: 90px;
+}
+#texto{
+    margin-top: -30px;
+    margin-left: 150px;
+    text-align: justify;
+}
+.img1{
+    position: absolute;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.img2{
+    position: absolute;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 280px;
+}
+#txt2{
+    margin-top: 15px;
+    text-align: start;
+}
+
+.menu{
+    margin-left: -700px;
+}
+.eventos{
+    margin-left: 80px;
+}
+.reser{
+    margin-left: 100px;
+}
+.an{
+    text-align: center;
+    margin-left: -800px;
+    margin-top: 200px;
+}
+.ng{
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 120px;
+}
